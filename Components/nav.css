@@ -1,0 +1,50 @@
+.maindiv{
+    margin-top:60px; 
+}
+  .sidenav {
+    height: 100%;
+    width:16%;
+    position: fixed;
+    z-index: 1;
+    overflow-y:scroll;
+    left: 0;
+    background-color: rgb(4,7,14);
+    transition: 0.3s;
+    cursor: grab;
+  }
+  .sidenav .A {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(33,44,72);
+    display: block;
+    transition: 0.1s;
+    color: #f1f1f1;
+    padding: 25px;
+    margin-top: 2px;
+    text-align: left;
+  }
+  
+  .sidenav .A:hover {
+    color: #f1f1f1;
+    padding: 25px;
+    border-radius: 4px;
+    background-color: rgb(57, 73, 100);
+    border-right: 3px solid #fff;
+  }
+  
+  .sidenav .closebtn {
+    font-size:4ch;
+    color: white;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .sidenav {padding-top: 20px; width: 26%;}
+    .sidenav a {font-size: 8px; margin-top: auto;text-overflow: wrap;}
+    
+  }
+  @media screen and (max-width: 370px)  {
+    .sidenav {padding-top: 15px; width: 26%;}
+    .sidenav a {font-size:8px; }
+   
+  }

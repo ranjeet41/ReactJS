@@ -1,0 +1,67 @@
+.FullContainers{
+    padding-top: 20px;
+}
+.Livecard{
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 50px 100px 50px 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.Livecard1{ background-image: linear-gradient(rgb(234,240,255), rgb(235, 65, 13));}
+.Livecard2{ background-image: linear-gradient(rgb(234,240,255), rgb(8, 238, 226));}
+.Livecard3{ background-image: linear-gradient(rgb(234,240,255), rgb(248, 11, 169));}
+.Livecard4{ background-image: linear-gradient(rgb(234,240,255), rgb(8, 79, 245));}
+
+.carD3{
+    min-height:45ch;
+    border-radius:8px;
+    margin:30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 1px #f3efef;
+}
+.carD4{
+   
+    border-radius:8px;
+    margin:30px;
+   
+    
+}
+.Header{
+    background-color: rgb(19, 20, 20);
+    color: white;
+    border-radius: 15px;
+}
+.BTN {
+    background-color:rgb(26, 134, 26);
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+    width: 150px;
+    height:35px;
+    border-radius: 5px;
+  }
+  
+  .Date{
+      border:none;
+      border-bottom: 1px solid rgb(12, 12, 12);
+      background-color:white;
+      height: 35px;
+  }
+  @media screen and (max-width: 600px) {
+    .IMG{
+        width: 200px;  
+    }
+    .RESP{
+          /* border-bottom: 1px solid black; */
+          overflow-x: scroll;
+    }
+  }
+
+  
+  

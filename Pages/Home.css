@@ -1,0 +1,61 @@
+.imgS{
+    background-color: rgb(255,255,255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(177, 194, 226);
+    border: 5px solid #fff;
+}
+.imgH{
+    background-color: rgb(255,255,255);
+    height: 30px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: rgb(177, 194, 226);
+    
+}
+.cards{
+    box-shadow: 5px 10px 18px #888888;
+    box-shadow: -2px -2px 4px #00000029;
+}
+.Row{
+background: #F1F1F1 0% 0% no-repeat padding-box;
+opacity: 1;
+box-shadow: 5px 10px 18px rgb(202,202,202);
+
+}
+.Row1{
+    background-color: linear-gradient(to left, #caf00d 1%, #fff 100%);;
+    margin: 5px;
+    box-shadow: linear-gradient(to left, #803bec 1%, #fff 100%);; 
+}
+.box{
+  border: 1px solid #f7f3f3;
+  box-shadow: 5px 10px 18px #f7f3f3; 
+  border-radius: 10px;
+  background: #F1F1F1 0% 0% no-repeat padding-box;
+}
+
+.box1{
+    box-shadow: 5px 10px 18px #d4a7a7; 
+  }
+  .DivContainers{
+    margin:0px 10px 0px 75px;
+    z-index: -100;
+    margin-top:20px;
+  }
+  /* @media screen and (max-width: 600px) {
+    .FullContainers{
+        z-index:-100; 
+        margin:0px 13px 0px 70px;
+    }
+  } */
+  .primary{
+      border:none;
+      background-color: #00ff37;
+      text-align: center;
+      text-decoration: bold;
+      border-radius: 15px;
+      margin: 10px;
+
+  }

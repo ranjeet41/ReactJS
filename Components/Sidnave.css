@@ -1,0 +1,126 @@
+.FirstBox{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: scroll;
+    cursor: grab;
+    margin:10px;
+}
+.Main{
+    margin-left: 17%;
+}
+.Course{
+width: 100%;
+margin-left:10px;
+font-size: 20px;
+z-index: 0;
+margin:50px;
+}
+.dropdown1{
+    height: 30px;
+    width: 100%;
+    border: none; 
+    box-shadow: 1px 1px 10px 1px #888888;
+}
+.card1{
+    min-height:290px ;
+    min-width: 520px;
+    border-radius: 30px;
+    margin:10px;
+    border:1px solid black;
+}
+.row2{
+   background-color: aliceblue;
+   overflow-x: scroll;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   box-shadow: 1px 1px 10px 1px #888888;
+   
+}
+.card2{
+    background-image: linear-gradient(rgb(234,240,255), rgb(149,181,255));
+    min-height:10ch ;
+    min-width: 20ch;
+    margin:10px;
+    border-radius: 8px;
+    text-align: center; 
+    border: none;
+}
+.card3{
+    max-height:70ch;
+    margin:10px;
+    border-radius:8px;
+    overflow-y:hidden;
+    overflow-x:scroll; 
+}
+.cards3{
+    border-radius:8px;
+    overflow-x:scroll; 
+    overflow-y:hidden; 
+}
+.card4{
+    min-height:55ch;
+    min-width: 25%;
+    border-radius:8px;
+    margin:10px;
+}
+.card-body{
+    padding: 0%;
+}
+.row{
+    padding: 0%;
+}
+.cards4{
+    text-decoration:none;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin:30px;
+}
+.cards4:hover{
+    border-bottom: 3px solid rgb(28, 29, 27);   
+}
+.imagespace{
+    margin-right: 10px;
+}
+.Ddown{
+    height: 3.5ch;
+    width: 15ch;
+    border-radius: 5px;
+    border: none; 
+    box-shadow: 1px 1px 10px 1px #888888;
+    overflow: hidden;
+}
+
+.imgS{
+    background-color: rgb(255,255,255);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(177, 194, 226);
+    border: 5px solid #fff;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+    
+  }
+  
+  tr:hover {background-color: #D6EEEE;}
+  
+  
+  .header{
+      background-color: rgb(234,242,252);
+      width: 100%;
+  }
+  .HS:hover{
+      background-color: #D6EEEE;
+  }
+  .HS{
+      text-emphasis-color: black;
+      border-bottom: 3px solid rgb(241, 236, 236);
+  }

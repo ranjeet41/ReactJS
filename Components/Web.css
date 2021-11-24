@@ -1,0 +1,32 @@
+.imgS{
+    background-color: rgb(255,255,255);
+    /* height: 100px;
+    width: 100px; */
+    border-radius: 50px;
+    background-color: rgb(177, 194, 226);
+    border: 5px solid #fff;
+}
+.cards{
+    box-shadow: 5px 10px 18px #888888;
+    box-shadow: -2px -2px 4px #00000029;
+}
+.Row{
+background: #F1F1F1 0% 0% no-repeat padding-box;
+opacity: 1;
+box-shadow: 5px 10px 18px rgb(202,202,202);
+}
+.Row1{
+    background-color: #FBFAFA;
+    margin: 5px;
+    /* box-shadow: rgb(253,253,253);  */
+}
+.box{
+  border: 1px solid #f7f3f3;
+  box-shadow: 5px 10px 18px #f7f3f3; 
+  border-radius: 10px;
+  background: #F1F1F1 0% 0% no-repeat padding-box;
+}
+
+.box1{
+    box-shadow: 5px 10px 18px #d4a7a7; 
+  }

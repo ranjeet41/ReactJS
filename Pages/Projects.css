@@ -1,0 +1,87 @@
+
+.Dropdown
+{
+    height: 40px;
+    border: none; 
+    box-shadow: 1px 1px 10px 1px #888888;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(110,122,136);
+    font-size: 20px;
+    color: white;
+    margin:30px;
+    display: flex;
+  justify-content: space-around;
+}
+.First{
+    border-radius:8px;
+    overflow-y:scroll;  
+    height:85ch;
+    margin-bottom: 30px;
+}
+.Second{
+   
+    overflow-y:scroll;  
+    overflow-x: hidden; 
+    height:70ch; 
+    background-color: rgb(233,236,239);
+    padding: 10px;
+    
+}
+.cards{
+    box-shadow: 8px 8px 8px 8px #c9c7c7;
+}
+
+.FullContainers{
+    margin:0px 10px 0px 70px;
+    z-index: -100;
+}
+.SmallCard{
+    background-color:#fff;
+}
+.imgA{
+    height: 150px;
+    width: 150px;
+}
+.imgB{
+    height: 90px;
+    width: 90px;
+}
+.BigCard{
+    background-color:#fff; ;
+    border: 0px solid;
+  box-shadow: 8px 8px 8px 8px #c9c7c7;
+}
+.checked{
+    color: orange;
+}
+.model{
+        position:absolute;
+        top:27%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width:400px;
+        background-color:#fff;
+        border:2px solid gray;
+        height:auto;
+        margin:2px;
+}
+.ModelItem{
+    height: 5ch;
+    margin-bottom: 10px;
+    width: auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+    justify-content: space-around;
+
+
+}
+.imgC{
+    height: 10px;
+    width: 0px;
+    border-radius: 30px;
+}

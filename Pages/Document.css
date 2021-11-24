@@ -1,0 +1,32 @@
+
+ 
+.FullContainer{
+    margin:0px 0px 0px 80px;
+    
+    background-image: linear-gradient(rgb(250, 250, 250), rgb(168, 189, 240));
+  margin:80px;
+   
+}
+
+.view-container{
+    background-color: blue;
+}
+.Outline{
+    border:1px solid black;
+    background-color: aqua;
+}
+.FORMBox1{
+    box-shadow: linear-gradient(to left, #6008ee 10%, #fff 100%);
+    border:1px solid black;
+}
+.FORMBox2
+{
+    box-shadow: linear-gradient(to left, #803bec 10%, #fff 100%);
+    border:1px solid black;
+    height: 80ch;
+    overflow-y: scroll;
+}
+.FORMBox2::-webkit-scrollbar {
+    display: none;
+  }
+
